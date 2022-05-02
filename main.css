@@ -6,6 +6,7 @@
     /*--bg-color-2: rgba(038, 008, 065, 1);*/
     --bg-color-2: rgba(2, 53, 128, 1);
     --bg-color-kitp: rgba(217, 128, 38, .95);
+    --bg-color-kitplight: rgba(242, 217, 192, .95);
     /*--bg-color-3: rgba(228, 224, 238, .5);*/
     /*--bg-color-3: rgba(242, 240, 247);*/
     --bg-color-3: rgba(0, 55, 194, .4);
@@ -185,7 +186,7 @@ color: rgba(0, 0, 0, 1);
 .the-team-page {
 	margin: 0 0 0 0;
 	padding: 2em;
-	background: #ffffff;
+	background: var(--bg-color-kitplight);
 	/*position: relative;*/
 }
 .the-team-subtitle {
@@ -195,6 +196,12 @@ color: rgba(0, 0, 0, 1);
 	font-weight: 700;
 	margin-bottom: 20px;
 	/*text-transform: uppercase;*/
+}
+.the-team-page a{
+    /*color: #ccc;*/
+    color: var(--bg-color-kitp);
+    /*font-weight: lighter;*/
+    font-weight: 350;
 }
 .contact-page {
     background: var(--bg-color-kitp);
