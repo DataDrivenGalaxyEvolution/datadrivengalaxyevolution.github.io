@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Data-Driven Galaxy Evolution</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+<!--        <link rel="icon" href="./graphics/CIERA_LOGO_new.png">-->
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-md">
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+					<li class="nav-item">
+						<a class="nav-link" href="#description">Program description</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+        <header class="header pageheader flex-column" id="home">
+            <div class="overlay"></div>
+            <div class="description">
+				<h1>Building a Physical Understanding of Galaxy Evolution with Data-driven Astronomy</h1>
+                <p>A 10-week collaborative KITP program with virtual and in-person components</p>
+            </div>
+            <canvas id="nokey"></canvas>
+            <script src="animation.js"></script>
+        </header>
+		
+		<div class="bg1">
+			<div class="container-fluid">
+				<div class="research-page" id="description">
+					<h2 class="research-title">Program description</h2>
+                    <p>Galaxy formation and evolution is a field that combines many complex and interdependent physical processes across different spatial and time scales. Moreover, observational data exists across a large wavelength range, and with heterogeneous spatial resolutions and observing depths, each sensitive to different physical tracers. Astrostatistics and machine learning can help us mine the huge existing and upcoming multiwavelength datasets, effectively down to the pixel and spaxel level, in order to determine the fundamental relationships between galaxy properties and evolutionary processes. Additionally, novel techniques are required to facilitate comparisons between galaxy formation theories and all observational data -- including outlier galaxy populations, and to integrate galaxy formation physics in the inference of cosmological parameters. However, connecting statistics and machine learning results to an improved understanding of key astrophysical processes remains a major challenge. This program will initiate a discussion between the empirical exploration of the extremely large and diverse data sets from both observations and simulations and the deduction of the underlying physics, aiming to answer the question: How do we optimally combine the empirical intuition gained using data science tools with theoretical intuition and knowledge, with the deductive goal of understanding the physical processes that govern the formation and evolution of galaxies?</p>
+                    </br>
+                    <p><b>This collaborative KITP program will run January 17 - March 24 2023. It consists of multiple components, both virtual and in-person or hybrid: </br>
+                        <ul>
+                        <li>A workshop at the CCA, Flatiron Institute, 17-20 January 2023</li>
+                        <li>A virtual component January 17 - February 24 2023</li>
+                        <li>An in-person component at the KITP, UCSB, February 27 - March 24 2023</li>
+                        <li>A KITP conference at KITP, UCSB, March 20 - 24 2023</li>
+                            </ul></b></p>
+                    </br>
+                </div>
+            </div>
+        </div>
+
+		
+        <div id="contact"  class="contact-page">
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="p-2 flex-grow-1">
+                    <h2 class="contact-title">Contact</h2>
+                    tjitske.starkenburg [at] northwestern.edu</br>
+                </div>
+                <div class="p-2 justify-content-center">
+                    <span class="text-right">
+                        <a href="ciera.northwestern.edu" target="_blank" class ="icon-ciera"></a>
+                        &nbsp;
+                        <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Starkenburg%2C%20Tjitske%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="icon-ads"></a>
+                        &nbsp;
+                        <a href="https://scholar.google.com/citations?user=_YTcADYAAAAJ" target="_blank" class="icon-scholar"></a>
+                        &nbsp;
+                        <a href="https://orcid.org/0000-0003-2539-8206" target="_blank" class="icon-orcid"></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+		<script src="jquery-3.4.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
