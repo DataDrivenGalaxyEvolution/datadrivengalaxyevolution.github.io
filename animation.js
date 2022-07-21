@@ -3,8 +3,8 @@ can_w = parseInt(canvas.getAttribute('width')),
 can_h = parseInt(canvas.getAttribute('height')),
 can_top = parseInt(canvas.getAttribute('offsetTop')),
 ctx = canvas.getContext('2d'),
-dx = 100,
-dy = 100;
+dx = 85,
+dy = 85;
 
 // console.log(typeof can_w);
 
